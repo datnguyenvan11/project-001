@@ -2,9 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 
-const mongoose = require('mongoose');
-// mongoose.connect("mongodb://localhost:27017/mytable", {useNewUrlParser: true});
-mongoose.connect("mongodb://sa:abcd1234@ds159641.mlab.com:59641/shoptify", {useNewUrlParser: true});
+// const mongoose = require('mongoose');
+// // mongoose.connect("mongodb://localhost:27017/mytable", {useNewUrlParser: true});
+// mongoose.connect("mongodb://sa:abcd1234@ds159641.mlab.com:59641/shoptify", {useNewUrlParser: true});
 
 app.set("views", "views");
 app.set("views engine", "ejs");
